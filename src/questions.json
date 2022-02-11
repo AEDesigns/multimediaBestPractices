@@ -1,0 +1,36 @@
+{
+   "questions": [
+            {
+            "id": 1,
+            "question": "example question here",
+            "choices": [
+                {
+                    "id": 1,
+                    "value": "some-value",
+                    "displayValue": "Some Value"
+                },
+                {
+                    "id": 2,
+                    "value": "some-value",
+                    "displayValue": "Some Value"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "example question here",
+            "choices": [
+                {
+                    "id": 1,
+                    "value": "some-value",
+                    "displayValue": "Some Value"
+                },
+                {
+                    "id": 2,
+                    "value": "some-value",
+                    "displayValue": "Some Value"
+                }
+            ]
+        }
+    ]
+}
