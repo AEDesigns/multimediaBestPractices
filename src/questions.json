@@ -6,12 +6,12 @@
             "choices": [
                 {
                     "id": 1,
-                    "value": "some-value",
+                    "value": "some-Value",
                     "displayValue": "Some Value"
                 },
                 {
                     "id": 2,
-                    "value": "some-value",
+                    "value": "some-vAlue",
                     "displayValue": "Some Newer Value"
                 }
             ]
@@ -22,12 +22,12 @@
             "choices": [
                 {
                     "id": 1,
-                    "value": "some-value",
+                    "value": "some-vaLue",
                     "displayValue": "Some New Value"
                 },
                 {
                     "id": 2,
-                    "value": "some-value",
+                    "value": "some-valUe",
                     "displayValue": "Some New New Value"
                 }
             ]
