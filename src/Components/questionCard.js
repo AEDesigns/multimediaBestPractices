@@ -15,6 +15,7 @@ const QuestionCard = (props) => {
                 return <div className="card" key={newQues.id.toString()}>
                             <h3>{newQues.question}</h3>
                             <select onChange={(e) => handleChange(e)}>
+                                <option hidden disabled selected value>(select an option)</option>
                                 {newQues.choices.map(choices => {
                                     return <option value={choices.value} key={choices.id.toString()}>{choices.displayValue}</option>
                                 })}
