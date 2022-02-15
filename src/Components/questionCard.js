@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
 import Video from './video';
+import Socials from './socialMedia';
 
 const QuestionCard = (props) => {
 
     const [video, setVideo] = useState(false);
+    const [socialMedia, setSocialMedia] = useState(false);
 
     const handleChange = (e) => {
         e.preventDefault();
         if(e.target.value === "websiteVideos"){
             setVideo(true);
+            setSocialMedia(false)
+        } else if (e.target.value === "socialMedia") {
+            setSocialMedia(true)
+            setVideo(false)
         }
     }
 
@@ -26,6 +32,7 @@ const QuestionCard = (props) => {
                         </div>
             })}
             {video ? <Video video={video} /> : null}
+            {socialMedia ? <Socials social={socialMedia} /> : null}
         </div>
      );
 }
