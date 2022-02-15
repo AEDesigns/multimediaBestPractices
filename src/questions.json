@@ -6,17 +6,17 @@
             "choices": [
                 {
                     "id": 1,
-                    "value": "social-media",
+                    "value": "socialMedia",
                     "displayValue": "Social Media (Facebook, LinkedIn, etc)"
                 },
                 {
                     "id": 2,
-                    "value": "marketing-advertising",
+                    "value": "marketingAdvertising",
                     "displayValue": "Marketing and Advertising (commercials, ads, etc)"
                 },
                 {
                     "id": 3,
-                    "value": "Website-videos",
+                    "value": "websiteVideos",
                     "displayValue": "Website Videos"
                 },
                 {

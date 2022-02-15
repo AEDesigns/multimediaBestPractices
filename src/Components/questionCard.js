@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-import Youtube from './youtube';
+import Video from './video';
 
 const QuestionCard = (props) => {
 
-    const [state, setState] = useState(false);
+    const [video, setVideo] = useState(false);
 
     const handleChange = (e) => {
         e.preventDefault();
-        setState(true);
+        if(e.target.value === "websiteVideos"){
+            setVideo(true);
+        }
     }
 
     return ( 
@@ -23,7 +25,7 @@ const QuestionCard = (props) => {
                             </select>
                         </div>
             })}
-            <Youtube youtube={state} />
+            {video ? <Video video={video} /> : null}
         </div>
      );
 }
